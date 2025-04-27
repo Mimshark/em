@@ -1,4 +1,4 @@
-import axios from "axios";
+
 import { useEffect, useState } from 'react'
 import Toast from 'react-bootstrap/Toast';
 import { Helmet } from 'react-helmet';
@@ -61,7 +61,7 @@ const logo = window.location.origin+'/flickloaded.jpg';
      {/* Set meta tags using Helmet */}
      <Helmet>
       
-      <title>Flickloaded | Contact</title>
+      <title>mimshark | Contact</title>
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="article" />
       <meta property="og:title" content="Flickloaded | Contact" />
